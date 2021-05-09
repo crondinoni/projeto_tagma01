@@ -5,8 +5,8 @@ import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
 const Dashboard = () => {
-    return (
-        <>
+  return (
+    <>
       <NavBar />
       <div className="container">
         <h1 className="text-primary py-3">Dashboard de alunos</h1>
@@ -26,13 +26,12 @@ const Dashboard = () => {
           <h2 className="text-primary">Desempenho detalhado</h2>
         </div>
 
-
-        <div/>
         <DataTable />
+        
       </div>
       <Footer />
     </>
-    );
+  );
 }
 
 export default Dashboard;
