@@ -21,13 +21,10 @@ const Dashboard = () => {
             <DonutChart />
           </div>
         </div>
-
         <div className="py-3">
           <h2 className="text-primary">Desempenho detalhado</h2>
         </div>
-
         <DataTable />
-        
       </div>
       <Footer />
     </>
