@@ -1,6 +1,29 @@
+import { Seller } from "./seller"
+
+export type Sale = {
+    id: number;
+    visited: number;
+    deals: number,
+    amount: 5501.0;
+    date: string;
+    seller: Seller;
+}
+
+export type SalePage = {
+    content?: Sale[];
+    last: boolean;
+    totalElements: number;
+    totalPages: number;
+    size?: number;
+    number: number;
+    numberOfElements?: number;
+    first: boolean;
+    empty?: boolean;
+}
+
 export type SaleSum = {
     sellerName: string;
-    sum: number
+    sum: number;
 }
 
 export type SaleSuccess = {
